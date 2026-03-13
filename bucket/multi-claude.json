@@ -4,7 +4,7 @@
     "homepage": "https://github.com/ghackk/claude-multi-account",
     "license": "MIT",
     "url": "https://github.com/ghackk/claude-multi-account/archive/refs/tags/v1.0.2.zip",
-    "hash": "b98e59cc4cc3a754ba4c38438720e5b6920d6a6b09f46da8cbfaef26d1c55b75",
+    "hash": "8d3c430cb980277ac3190dbe061a9b836aad6bf6e60a603a30fee3244bf45966",
     "extract_dir": "claude-multi-account-1.0.2",
     "bin": [["claude-menu.bat", "multi-claude"]],
     "shortcuts": [
