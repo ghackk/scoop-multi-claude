@@ -1,18 +1,22 @@
 {
-    "version": "1.0.25",
+    "version": "1.0.26",
     "description": "Run multiple Claude CLI accounts with shared settings, plugins, and backup/restore",
     "homepage": "https://github.com/ghackk/claude-multi-account",
     "license": "MIT",
-    "url": "https://github.com/ghackk/claude-multi-account/archive/refs/tags/v1.0.25.zip",
-    "hash": "da0e07b63f7ee3a3d9f0f425eeb2428fc2d35192cc82d838a7282864eac6a3e2",
-    "extract_dir": "claude-multi-account-1.0.25",
+    "url": "https://github.com/ghackk/claude-multi-account/archive/refs/tags/v1.0.26.zip",
+    "hash": "a89403b0a89fccb2ed292efe9db189745c60c13401ca8e68367271b2d43486df",
+    "extract_dir": "claude-multi-account-1.0.26",
     "bin": "claude-menu.bat",
     "shortcuts": [
-        ["claude-menu.bat", "Claude Multi-Account"]
+        [
+            "claude-menu.bat",
+            "Claude Multi-Account"
+        ]
     ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/ghackk/claude-multi-account/archive/refs/tags/v$version.zip",
         "extract_dir": "claude-multi-account-$version"
-    }
+    },
+    "depends": "nodejs-lts"
 }
